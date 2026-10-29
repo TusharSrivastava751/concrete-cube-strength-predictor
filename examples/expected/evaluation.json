@@ -245,7 +245,7 @@
       "predicted_28d_mpa": 53.26404083331482
     }
   ],
-  "input_sha256": "6e896f2cf46156240144a9b4f4129c7c9700f8d7550217a01ddf3d608f57039c",
+  "input_sha256": "d8f02029e9f4f31c44dab115bb998ff37814996355c5adb93ec6df3fdc0a3a3c",
   "screening_example": {
     "status": "below_screening_target",
     "prediction_mpa": 37.02054250447344,
