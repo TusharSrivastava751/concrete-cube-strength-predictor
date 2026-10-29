@@ -1,0 +1,255 @@
+{
+  "scope": "Synthetic demonstration only; no real-world performance claim",
+  "sklearn_version": "1.7.2",
+  "split_seed": 42,
+  "feature": "strength_7d_mpa",
+  "target": "strength_28d_mpa",
+  "train_batches": [
+    "B01",
+    "B02",
+    "B03",
+    "B04",
+    "B06",
+    "B08",
+    "B09",
+    "B10",
+    "B11",
+    "B12",
+    "B14",
+    "B15",
+    "B18",
+    "B19",
+    "B21",
+    "B22",
+    "B23",
+    "B24",
+    "B25",
+    "B26",
+    "B29",
+    "B30",
+    "B31",
+    "B32",
+    "B33",
+    "B34",
+    "B35",
+    "B36",
+    "B37",
+    "B39"
+  ],
+  "test_batches": [
+    "B05",
+    "B07",
+    "B13",
+    "B16",
+    "B17",
+    "B20",
+    "B27",
+    "B28",
+    "B38",
+    "B40"
+  ],
+  "train_samples": [
+    "DEMO-01-1",
+    "DEMO-01-2",
+    "DEMO-02-1",
+    "DEMO-02-2",
+    "DEMO-03-1",
+    "DEMO-03-2",
+    "DEMO-04-1",
+    "DEMO-04-2",
+    "DEMO-06-1",
+    "DEMO-06-2",
+    "DEMO-08-1",
+    "DEMO-08-2",
+    "DEMO-09-1",
+    "DEMO-09-2",
+    "DEMO-10-1",
+    "DEMO-10-2",
+    "DEMO-11-1",
+    "DEMO-11-2",
+    "DEMO-12-1",
+    "DEMO-12-2",
+    "DEMO-14-1",
+    "DEMO-14-2",
+    "DEMO-15-1",
+    "DEMO-15-2",
+    "DEMO-18-1",
+    "DEMO-18-2",
+    "DEMO-19-1",
+    "DEMO-19-2",
+    "DEMO-21-1",
+    "DEMO-21-2",
+    "DEMO-22-1",
+    "DEMO-22-2",
+    "DEMO-23-1",
+    "DEMO-23-2",
+    "DEMO-24-1",
+    "DEMO-24-2",
+    "DEMO-25-1",
+    "DEMO-25-2",
+    "DEMO-26-1",
+    "DEMO-26-2",
+    "DEMO-29-1",
+    "DEMO-29-2",
+    "DEMO-30-1",
+    "DEMO-30-2",
+    "DEMO-31-1",
+    "DEMO-31-2",
+    "DEMO-32-1",
+    "DEMO-32-2",
+    "DEMO-33-1",
+    "DEMO-33-2",
+    "DEMO-34-1",
+    "DEMO-34-2",
+    "DEMO-35-1",
+    "DEMO-35-2",
+    "DEMO-36-1",
+    "DEMO-36-2",
+    "DEMO-37-1",
+    "DEMO-37-2",
+    "DEMO-39-1",
+    "DEMO-39-2"
+  ],
+  "test_samples": [
+    "DEMO-05-1",
+    "DEMO-05-2",
+    "DEMO-07-1",
+    "DEMO-07-2",
+    "DEMO-13-1",
+    "DEMO-13-2",
+    "DEMO-16-1",
+    "DEMO-16-2",
+    "DEMO-17-1",
+    "DEMO-17-2",
+    "DEMO-20-1",
+    "DEMO-20-2",
+    "DEMO-27-1",
+    "DEMO-27-2",
+    "DEMO-28-1",
+    "DEMO-28-2",
+    "DEMO-38-1",
+    "DEMO-38-2",
+    "DEMO-40-1",
+    "DEMO-40-2"
+  ],
+  "coefficient": 1.134322508997304,
+  "intercept": 9.796802288538142,
+  "training_range_7d_mpa": [
+    13.77,
+    37.28
+  ],
+  "metrics": {
+    "mae_mpa": 2.8679847269514696,
+    "rmse_mpa": 3.680823105111953,
+    "training_mean_baseline_mae_mpa": 11.7755
+  },
+  "held_out_predictions": [
+    {
+      "sample_id": "DEMO-05-1",
+      "actual_28d_mpa": 52.41,
+      "predicted_28d_mpa": 51.8461376970682
+    },
+    {
+      "sample_id": "DEMO-05-2",
+      "actual_28d_mpa": 49.41,
+      "predicted_28d_mpa": 51.15420096657985
+    },
+    {
+      "sample_id": "DEMO-07-1",
+      "actual_28d_mpa": 52.18,
+      "predicted_28d_mpa": 50.655099062621034
+    },
+    {
+      "sample_id": "DEMO-07-2",
+      "actual_28d_mpa": 51.73,
+      "predicted_28d_mpa": 50.95002291496033
+    },
+    {
+      "sample_id": "DEMO-13-1",
+      "actual_28d_mpa": 23.9,
+      "predicted_28d_mpa": 25.93821159156978
+    },
+    {
+      "sample_id": "DEMO-13-2",
+      "actual_28d_mpa": 25.84,
+      "predicted_28d_mpa": 25.93821159156978
+    },
+    {
+      "sample_id": "DEMO-16-1",
+      "actual_28d_mpa": 47.24,
+      "predicted_28d_mpa": 47.683174089048094
+    },
+    {
+      "sample_id": "DEMO-16-2",
+      "actual_28d_mpa": 43.05,
+      "predicted_28d_mpa": 44.82468136637489
+    },
+    {
+      "sample_id": "DEMO-17-1",
+      "actual_28d_mpa": 29.07,
+      "predicted_28d_mpa": 25.858809015939965
+    },
+    {
+      "sample_id": "DEMO-17-2",
+      "actual_28d_mpa": 26.87,
+      "predicted_28d_mpa": 25.68866063959037
+    },
+    {
+      "sample_id": "DEMO-20-1",
+      "actual_28d_mpa": 51.41,
+      "predicted_28d_mpa": 51.517184169458986
+    },
+    {
+      "sample_id": "DEMO-20-2",
+      "actual_28d_mpa": 48.4,
+      "predicted_28d_mpa": 50.47360746118146
+    },
+    {
+      "sample_id": "DEMO-27-1",
+      "actual_28d_mpa": 25.61,
+      "predicted_28d_mpa": 28.93282301532266
+    },
+    {
+      "sample_id": "DEMO-27-2",
+      "actual_28d_mpa": 24.35,
+      "predicted_28d_mpa": 28.19551338447441
+    },
+    {
+      "sample_id": "DEMO-28-1",
+      "actual_28d_mpa": 27.5,
+      "predicted_28d_mpa": 33.37936725059209
+    },
+    {
+      "sample_id": "DEMO-28-2",
+      "actual_28d_mpa": 24.04,
+      "predicted_28d_mpa": 32.4945956935742
+    },
+    {
+      "sample_id": "DEMO-38-1",
+      "actual_28d_mpa": 34.05,
+      "predicted_28d_mpa": 39.32321719773796
+    },
+    {
+      "sample_id": "DEMO-38-2",
+      "actual_28d_mpa": 33.38,
+      "predicted_28d_mpa": 39.60679782498729
+    },
+    {
+      "sample_id": "DEMO-40-1",
+      "actual_28d_mpa": 58.0,
+      "predicted_28d_mpa": 52.20912089994734
+    },
+    {
+      "sample_id": "DEMO-40-2",
+      "actual_28d_mpa": 56.29,
+      "predicted_28d_mpa": 53.26404083331482
+    }
+  ],
+  "input_sha256": "6e896f2cf46156240144a9b4f4129c7c9700f8d7550217a01ddf3d608f57039c",
+  "screening_example": {
+    "status": "below_screening_target",
+    "prediction_mpa": 37.02054250447344,
+    "screening_target_mpa": 40.0,
+    "note": "No acceptance decision or calibrated failure probability; verify actual 28-day tests"
+  }
+}
